@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +16,25 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+/* Link styles */
+a,
+a:link {
+  color: rgb(14,31,65);
+}
+
+a:visited {
+  color: rgb(171, 29, 147); /* contrast ratio: 7.45:1 */
+}
+
+a:hover {
+  color: rgb(201,53,68);
+}
+
+a:active {
+  color: rgb(55, 235, 88);
+}
+
+
 h3 {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
@@ -53,7 +72,7 @@ ul li {
     margin-left: 20px;
 }
 
-/* Figure styles */
+/* figure and its caption */
 figure {
     margin: 20px 0;
 }
@@ -65,18 +84,18 @@ figcaption {
     margin-top: 5px;
 }
 
-/* Link styles */
-a:link, a:visited {
-    text-decoration: none;
-    color: #2980b9;
-}
+/*background for each section*/
+#introduction {
+    background-color: rgba(127, 127, 221, 0.2);
+  }
+#geography {
+    background-color: rgba(39, 124, 202, 0.2);
+  }
+#people-and-society {
+    background-color: rgba(185, 204, 243, 0.2);
+  }
+#transportation {
+    background-color: rgba(56, 232, 224, 0.2);
+  }
 
-a:hover {
-    color: #1a5276;
-    text-decoration: underline;
-}
 
-a:active {
-    color: #2980b9;
-    text-decoration: underline;
-}
