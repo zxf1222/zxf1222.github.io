@@ -4,6 +4,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
 }
 
 header {
@@ -67,6 +69,47 @@ footer {
 .project p {
   font-size: 14px;
   margin-top: 5px;
+}
+
+/*
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  animation: color-change 5s infinite;
+}
+
+.grid-item {
+  background: rgb(255, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes color-change {
+  0% { background: rgb(255, 0, 0); }
+  33% { background: rgb(0, 255, 0); }
+  66% { background: rgb(0, 0, 255); }
+  100% { background: rgb(255, 0, 0); }
+}
+
+*/
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+/* Medium screens */
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
 }
 
 /* Media Queries */
