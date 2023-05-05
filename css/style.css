@@ -689,12 +689,13 @@ body{
 
 
 
+
 /*for the bottom of the page*/
 .footer {
   background: rgb(135,206,235);
   color: white;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -702,19 +703,19 @@ body{
 }
 
 .footer .footer-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   font-family: "Times New Roman", serif;
 }
 
 .footer p {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 10px;
   font-family: "Times New Roman", serif;
 }
 
 .footer p a {
-  color: mediumpurple;
+  color: rgb(147, 112, 216);
   font-weight: 600;
   text-decoration: none;
 }
@@ -727,7 +728,3 @@ body{
 section{
 	padding: 80px;
 }
-
-
-
-
