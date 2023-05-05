@@ -7,6 +7,7 @@
 	vertical-align: baseline;
 }
 
+/*
 .section-main{
 	position: relative;
 	width: 100%;
@@ -19,6 +20,20 @@
 	align-items: center;
 	padding: 20px 100px;
 }
+*/
+
+.section-main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px 100px;
+}
 
 .section-main h1{
 	color: grey;
@@ -28,6 +43,14 @@
 	letter-spacing: 2px;
 	line-height: 80px;
 }
+.section-main p {
+  width: 100%;
+  max-width: 800px; /*  the max-width preference */
+  color: #fff;
+  font-size: 1.2em; /*  the font size preference */
+  margin-top: 20px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
