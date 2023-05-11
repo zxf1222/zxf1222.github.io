@@ -61,7 +61,20 @@
     font-size: 12px; /* Decrease font size for smaller screens */
   }
   /* Your existing CSS code here */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    height: 100vh;
+  }
 
+  .welcome-message {
+    font-size: 0.5rem;
+    color: #666;
+    justify-content: center;
+
+  }
 /* Mobile version */
   .gallery .content {
     display: flex;
