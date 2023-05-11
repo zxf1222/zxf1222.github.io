@@ -666,6 +666,7 @@ body{
 .contact .content .row{
 	display: inline-flex;
 	justify-content: center;
+	overflow: auto;
 
 }
 
