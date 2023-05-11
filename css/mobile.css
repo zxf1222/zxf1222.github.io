@@ -1,1 +1,79 @@
+@media screen and (max-width: 768px) {
+  .section-main {
+    padding: 20px; /* Reduce padding for smaller screens */
+    align-items: center; /* Center align items vertically */
+  }
 
+  .section-main h1 {
+    font-size: 40px; /*  font size for phone screen */
+    line-height: 60px;
+  }
+
+  .section-main p {
+    max-width: 100%; /* adjusted width to fit smaller screens */
+    font-size: 1em; /* decreased font size for smaller screens */
+    margin-top: 10px;
+  }
+
+  header {
+    padding: 20px; /* reduced padding for smaller screens */
+  }
+
+  header .me {
+    font-size: 20px; /* decreased font size for smaller screens */
+  }
+
+  header .menu {
+    padding-right: 10px; /* reduced padding for smaller screens */
+  }
+
+  header .menu a {
+    font-size: 14px; /* decreased font size for smaller screens */
+    margin: 0 10px; /* reduced margin for smaller screens */
+  }
+
+  header .btn {
+    display: block; /* the menu button displayed as a block for smaller screens */
+  }
+
+  .form {
+    padding: 40px; /* padding for phone screen */
+  }
+
+  .form h2 {
+    font-size: 30px; /*  font size decreased for smaller screens */
+  }
+
+  .form .input-group label {
+    font-size: 0.8rem; /* Decrease font size for smaller screens */
+  }
+
+  .gallery .content .card {
+    width: 100%; /* Show one image per row for smaller screens */
+    margin: 15px 0; /* Adjust margin for smaller screens */
+  }
+
+  .footer .footer-title {
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+
+  .footer p {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+  /* Your existing CSS code here */
+
+/* Mobile version */
+  .gallery .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .gallery .content .card {
+    width: calc(50% - 30px);
+    margin: 15px;
+  }
+
+
+}
