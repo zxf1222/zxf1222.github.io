@@ -45,12 +45,19 @@
 }
 .section-main p {
   width: 100%;
-  max-width: 800px; /*  the max-width preference */
+  max-width: 800px; /*  maximum width preference */
   color: #fff;
-  font-size: 1.2em; /*  the font size preference */
+  font-size: 1.2em; /* maximum width preference */
   margin-top: 20px;
 }
 
+.resume-section {
+	margin-bottom: 0;
+	max-width: 900px;
+	min-width: 50px;
+
+
+}
 .container {
   display: flex;
   flex-direction: column;
