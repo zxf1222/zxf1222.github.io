@@ -55,6 +55,7 @@
 	margin-bottom: 0;
 	max-width: 900px;
 	min-width: 50px;
+	margin-top:32px;
 
 
 }
@@ -77,7 +78,8 @@
 }
 
 header{
-    background: rgb(135,206,235);
+	position: fixed;
+  background: rgb(135,206,235);
 	z-index: 999;
 	position: fixed;
 	top: 0;
