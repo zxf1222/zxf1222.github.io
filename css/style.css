@@ -267,10 +267,10 @@ input[type=text], select, textarea {
 	box-sizing: border-box; /* Ensures that padding and width stays in place */
 	margin-top: 6px; /* Add a top margin */
 	margin-bottom: 16px; /* Bottom margin */
-	resize: vertical /* Allow the user to vertically resize the textarea */
+	resize: vertical /* user can vertically resize the textarea */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style the submit button with a specific background color */
 button[type=submit] {
 	background-color: mediumpurple;
 	color: white;
@@ -510,6 +510,8 @@ section{
 	font-size: 2.8em;
 	font-weight: 600;
 }
+
+
 
 .btn{
 	color: #fff;

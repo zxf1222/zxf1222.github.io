@@ -16,49 +16,34 @@
   }
 
   header {
-    padding: 20px; /* reduced padding for smaller screens */
+    padding: 20px; /* reduced padding for phone*/
   }
 
   header .me {
-    font-size: 20px; /* decreased font size for smaller screens */
+    font-size: 20px; /* smaller font size for phone */
   }
 
   header .menu {
-    padding-right: 10px; /* reduced padding for smaller screens */
+    padding-right: 10px; /* reduced padding for phone*/
   }
 
   header .menu a {
-    font-size: 14px; /* decreased font size for smaller screens */
-    margin: 0 10px; /* reduced margin for smaller screens */
+    font-size: 14px;
+    margin: 0 10px; /* smaller margin for phone screen */
   }
 
-  header .btn {
-    display: block; /* the menu button displayed as a block for smaller screens */
-  }
-
-  .form {
-    padding: 40px; /* padding for phone screen */
-  }
-
-  .form h2 {
-    font-size: 30px; /*  font size decreased for smaller screens */
-  }
-
-  .form .input-group label {
-    font-size: 0.8rem; /* Decrease font size for smaller screens */
-  }
 
   .gallery .content .card {
-    width: 100%; /* Show one image per row for smaller screens */
-    margin: 15px 0; /* Adjust margin for smaller screens */
+    width: 100%; /*  one image per row for phone screen */
+    margin: 15px 0; /*  margin for phone screen */
   }
 
   .footer .footer-title {
-    font-size: 16px; /* Decrease font size for smaller screens */
+    font-size: 16px; /*  font size is smaller for phone*/
   }
 
   .footer p {
-    font-size: 12px; /* Decrease font size for smaller screens */
+    font-size: 12px; /*  font size for phone screen */
   }
 
   .container {
