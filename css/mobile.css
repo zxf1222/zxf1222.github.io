@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   .section-main {
-    padding: 20px; /* Reduce padding for smaller screens */
-    align-items: center; /* Center align items vertically */
+    padding: 20px; /* reduced padding for smaller screens */
+    align-items: center; /* centered items  */
   }
 
   .section-main h1 {
